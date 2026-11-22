@@ -1,0 +1,38 @@
+
+erDiagram
+    STUDENTS ||--o{ ATTENDANCE : has
+    COURSES ||--o{ ATTENDANCE : records
+    STUDENTS ||--o{ RESULTS : receives
+    COURSES ||--o{ RESULTS : contains
+
+    STUDENTS {
+        int student_id PK
+        varchar student_code
+        varchar Gender
+        int age
+        varchar address
+        int studytime
+        int failures
+    }
+
+    COURSES {
+        int course_id PK
+        varchar course_name
+    }
+
+    ATTENDANCE {
+        int attendance_id PK
+        int student_id FK
+        int course_id FK
+        int absences
+    }
+
+    RESULTS {
+        int result_id PK
+        int student_id FK
+        int course_id FK
+        decimal G1
+        decimal G2
+        decimal G3
+        tinyint pass_status
+    }

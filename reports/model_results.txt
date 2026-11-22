@@ -1,0 +1,20 @@
+LOGISTIC REGRESSION RESULTS
+Training records: 316
+Testing records: 79
+Accuracy: 0.8861
+Precision: 0.9400
+Recall: 0.8868
+F1 Score: 0.9126
+ROC-AUC: 0.9681
+Confusion Matrix:
+[[23  3]
+ [ 6 47]]
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.88      0.84        26
+           1       0.94      0.89      0.91        53
+
+    accuracy                           0.89        79
+   macro avg       0.87      0.89      0.87        79
+weighted avg       0.89      0.89      0.89        79

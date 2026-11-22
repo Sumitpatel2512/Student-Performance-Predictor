@@ -1,0 +1,35 @@
+STATISTICAL ANALYSIS
+==================================================
+
+1. Pearson Correlation
+Correlation: 0.0342
+P-value: 0.4973
+
+2. Chi-square Test: Gender vs Pass/Fail
+result   0    1
+Gender         
+F       75  133
+M       55  132
+Chi-square: 1.6803
+Degrees of Freedom: 1
+P-value: 0.1949
+Cramer's V: 0.0652
+
+3. Welch's T-test: Gender vs Final Grade
+Male Mean: 10.91
+Female Mean: 9.97
+Mean Difference (Female - Male): -0.95
+T-statistic: 2.0651
+P-value: 0.0396
+
+4. Chi-square: Internet Access vs Pass/Fail
+result      0    1
+internet          
+no         26   40
+yes       104  225
+Chi-square: 1.1762
+P-value: 0.2781
+
+5. ANOVA: Study Time vs Final Grade
+F-statistic: 1.7278
+P-value: 0.1607

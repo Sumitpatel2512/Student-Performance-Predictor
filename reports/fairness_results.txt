@@ -1,0 +1,18 @@
+GENDER-BASED FAIRNESS ANALYSIS
+=======================================================
+
+Female Students
+Number of Students: 47
+Accuracy: 0.8723
+Pass Precision: 0.9000
+Pass Recall: 0.9000
+Predicted Pass Rate: 63.83%
+Actual Pass Rate: 63.83%
+
+Male Students
+Number of Students: 32
+Accuracy: 0.9062
+Pass Precision: 1.0000
+Pass Recall: 0.8696
+Predicted Pass Rate: 62.50%
+Actual Pass Rate: 71.88%
